@@ -169,17 +169,6 @@ ul {
     color: #404BBF;
 }
 
-.nav-studio::after {
-    height: 4px;
-    border-radius: 2px;
-    background-color: #404bbf;
-    content: '';
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-}
-
 
 
 .page-address {
@@ -215,7 +204,7 @@ ul {
 
 .section-first {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(/images/our-background/people-office%201.jpg);
+    url(./images/our-background/people-office%201.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
