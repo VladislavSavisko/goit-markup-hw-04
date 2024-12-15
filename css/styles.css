@@ -96,7 +96,6 @@ body {
 
 .nav-link {
     display: block;
-    color: #404bbf;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -104,15 +103,11 @@ body {
     letter-spacing: 0.02em;
     padding: 24px 0;
     position: relative;
+    color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
 
 .active {
     color: #404bbf;
@@ -195,7 +190,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:focus {
@@ -209,8 +204,9 @@ ul {
 }
 
 .section-first {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/our-background/people-office%201.jpg);
+    background-image: 
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/our-background/people-office%201.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
