@@ -148,7 +148,7 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #2e2f42;
+    color: #404BBF;
     text-decoration: none;
     letter-spacing: 0.02em;
     position: relative;
@@ -156,6 +156,7 @@ ul {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 }
+
 
 .nav-link:focus {
     color: #404BBF;
@@ -206,7 +207,7 @@ ul {
 .section-first {
     background-image: 
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/our-background/people-office%201.jpg);
+        url(../images/our-background/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
