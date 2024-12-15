@@ -204,7 +204,7 @@ ul {
 
 .section-first {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(./images/our-background/people-office%201.jpg);
+    url(../images/our-background/people-office%201.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
